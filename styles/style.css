@@ -23,7 +23,6 @@ main {
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: bolder;
     font-style: normal;
 }
 
@@ -93,4 +92,49 @@ main {
 #ad-container .ad-category {
     font-size: 48px;
     color: #070211;
+}
+
+/* Styling parti-sections */
+
+#parti-section {
+    margin-top: 120px;
+    background: linear-gradient(to right, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 16px;
+    padding: 0px 173px;
+}
+
+#parti-section .parti-title {
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+#parti-section .parti-img img {
+    width: 320px;
+    height: 465px;
+}
+
+#parti-section .parti-content {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 0px;
+    margin-top: 24px;
+}
+
+#parti-section button {
+    background: rgba(255, 255, 255, 0.05);
+    /* Semi-transparent white background */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* Optional subtle border */
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 32px;
 }
