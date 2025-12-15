@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+}
+
+main {
+    padding: 20px 140px;
 }
 
 .merry-font {
@@ -15,7 +20,14 @@
         "wdth" 100;
 }
 
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
 
+/* Styling hero */
 #hero {
     background: linear-gradient(to bottom,
             rgba(7, 2, 17, 1) 0%,
@@ -27,6 +39,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 16px;
 
 }
 
@@ -48,4 +61,36 @@
 .hero-title {
     font-size: 72px;
     margin-top: 16px;
+}
+
+/* Styling ad Container */
+
+#ad-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+#ad-container .offer {
+    color: #FF0000;
+    font-size: 88px;
+    font-family: bold;
+}
+
+#ad-container .ad-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 803px;
+    gap: 16px;
+}
+
+#ad-container .ad-title {
+    font-size: 24px;
+    color: #FF0000;
+}
+
+#ad-container .ad-category {
+    font-size: 48px;
+    color: #070211;
 }
