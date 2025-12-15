@@ -119,10 +119,9 @@ main {
     height: 465px;
 }
 
-#parti-section .parti-content {
+#parti-section .party-content {
     font-size: 18px;
     color: #FFFFFF;
-    font-weight: 0px;
     margin-top: 24px;
 }
 
@@ -136,5 +135,41 @@ main {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 32px;
+    margin-top: 40px;
+}
+
+/* Place sections styles+ */
+
+#place-container {
+    background: linear-gradient(to top,
+            rgba(179, 157, 157, 0) 0%,
+            rgba(203, 140, 140, 0.21) 21%,
+            rgb(232, 160, 160) 100%);
+
+    height: 482px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+    text-align: center;
+    border-radius: 16px;
+}
+
+#place-container .option {
+    color: #FF0000;
+}
+
+#place-container h4 {
+    font-size: 32px;
+    margin: 20px;
+}
+
+#place-container button {
+    background-color: #FF0000;
+    padding: 16px 32px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 48px;
+    color: whitesmoke;
 }
